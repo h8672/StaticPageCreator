@@ -34,7 +34,7 @@ Example to create simple static page using target as content
 	Start to process of other static file from this file.
 	It is a new instance of this. Used to build all sites from single file.
 {{--}}
-{{process --process other.static}}
+{{process --instance other.static}}
 
 {{!--}}
 	Get keywords from a file, but nothing else happens.
